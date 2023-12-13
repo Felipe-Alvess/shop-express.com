@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style> 
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        background-color: #ddd;
+    }
+form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 2px solid;
+    width: 25%;
+    padding: 10% 2%;
+    border-radius: 10px;
+   
+    
+    
+    
+    
+}
+input{
+    display: flex;
+    width: 95%;
+    padding: 13px;
+    margin: 8px;
+    outline: none;
+    font-size: 15px;
+    border: 1px solid;
+}
+.button{
+    background-color: aqua;
+    outline: none;
+    border:1px solid;
+    border-radius: 10px;
+}
+@media screen and (max-width:768px) {
+    form{
+    width: 60%;
+    padding:18% 3%;
+    }
+    input{
+        margin: 10px;
+        border: 1px solid;
+    }
+}
+    </style>
+</head>
+<body>
+    <form action="http://127.0.0.1:5500/index.html#" method="get">
+    <label for="input">
+        
+        <input type="text" placeholder="Usuario">
+        <input type="password" placeholder="Senha">
+        <input type="submit" class="button">
+        
+  
+    </label>
+    </form>
+</div>
+</body>
+</html>

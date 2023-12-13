@@ -1,0 +1,428 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+    
+}
+body{
+   font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    background-color: #dddd;
+    overflow-x: hidden;
+}
+
+/*  apps de contatos  */
+.aplicativos{
+    position: absolute;
+    background-color: #ccc;
+    width: 100%;
+    height: 5vh;
+    font-size: 20px;
+    
+}
+.aplicativos i{
+    position: relative;
+    top: 5px;
+    left: 42%;
+    display: inline;
+    font-size: 24px;
+    margin: 0.3%;
+    
+}
+
+.aplicativos i:hover{
+color: orangered;
+}
+@media screen and (max-width:768px) {
+    .aplicativos i{
+        position: relative;
+        left: 2%;
+        
+    }
+}
+/* apps de contatos*/
+
+
+/* titulo shop Expres */
+ .titulo{
+    position: absolute;
+    top: 5%;
+    background-color: #000;
+    width: 100%;
+    height: 9vh;
+    color: white;
+    
+}
+.titulo h2{
+    text-align: start;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-size: 30px;
+    padding-top: 1%;
+    margin:0 1%;
+}
+.titulo a{
+    position: relative;
+    top: -5vh;
+    left: 36%;
+    text-decoration: none;
+    color: #fff;
+}
+.titulo a:hover{
+    color: red;
+}
+.titulo i{
+    position: relative;
+    top: -4vh;
+    left: 37%;
+    color: #fff;
+    font-size: 26px;
+    cursor: pointer;
+}
+.titulo i:hover{
+    color: red;
+}
+input{
+    position: relative;
+    left: 38%;
+    top: -5.5vh;
+    border-radius: 12px;
+    padding: 8px;
+    outline: none;
+    border: none;
+    
+}
+
+@media screen and (max-width:768px) {
+.titulo h2{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        font-size: 26px;
+        padding: 1.2%;
+    }
+    input{
+        text-align: start;
+        top:-15px;
+        left: 12%;
+        height: 4vh;
+        display: flex;
+        z-index: 1;
+        padding: 10px;
+}
+.titulo{
+       padding-top: 1.5%;
+}
+
+}
+/* titulo shop Expres */
+
+/* menu principal */
+nav{
+    display: flex;
+    padding: 8%;
+    
+}
+nav li{
+    list-style: none;
+    margin: 10px;
+}
+nav a{
+    text-decoration: none;
+    color: #000;
+}
+nav a:hover{
+text-decoration: underline;
+}
+@media screen and (max-width:1211px) {
+    nav a{
+      position: relative;
+      top: 20px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    nav {
+       display: none;
+    }
+}
+/* menu principal */
+
+/* Menu lateral */
+.menu-lateral {
+    position: absolute;
+    top: 14%;
+    left: 0;
+    color: black;
+    font-size: 40px;
+    background-color:turquoise;
+    width: 100%;
+    display: none;
+}
+@media screen and (max-width:768px) {
+    .menu-lateral {
+        display: block;
+        
+    }
+}
+.menu-lateral i{
+    display: block;
+    text-align: start;
+    cursor: pointer;
+    
+}
+/* Menu lateral */
+
+/* itens menu lateral */
+.menu-dropdown{
+position: absolute;
+top: 20.4%;
+left: 0%;
+z-index: 1;
+}
+.menu-dropdown li{
+    display: block;
+    
+}
+.menu-dropdown ul{
+    list-style: none;
+    background:rgba(0, 0, 0, 0.5) ;
+    backdrop-filter: blur(5px);
+    width: 100%;
+    height: 100%;
+    padding: auto;
+    display: none;
+    
+    
+    
+}
+.menu-dropdown a{
+    white-space: nowrap;
+    display: block;
+    justify-content: center;   
+    padding: 15px;
+    color: #fff;
+    text-decoration: none;
+    transition: 1.5s;
+    
+}
+.menu-dropdown a:hover{
+    background-color: rgba(255, 250, 250, 0.5);
+    color: #fff;
+}
+.menu-dropdown ul{
+    animation-name: menu-animado;
+    animation-duration: 2s;
+    animation-direction:alternate;
+    animation-iteration-count: initial;
+    
+    
+}
+
+
+@keyframes menu-animado{
+    from{
+        margin-left: -100%;
+        
+    }
+  to{
+    margin-left: 0%;
+    
+  }
+}
+/* itens Menu lateral */
+
+/* slide de imnagens */
+.carrossel{
+    position: absolute;
+    top: 26%;
+    box-shadow: 2px 2px 4px black;
+    overflow: hidden;
+    height: 300px;
+    width: 900px;
+    border-radius: 12px;
+}
+.container{
+display: flex;
+transition: transform 0.5s ease-in-out;
+transform: translateX(0);
+}
+
+.container input{
+    position: absolute;
+    top: 54px;
+    left: 50%;
+}
+img{
+object-fit: cover;
+height: 300px;
+width: 900px;
+}
+@media screen and (max-width:768px) {
+    .carrossel{
+    display: none;
+    }
+}
+/* slide de imnagens */
+
+/* botões de radio */
+
+
+/* botões de radio */
+
+/* Categorias */
+.categoria{
+    position: absolute;
+    top: 80%;
+    display: flex;
+    justify-content: center;
+    display: block;
+    
+    
+    
+}
+.categoria img{
+    width: 120px;
+    height: 120px;
+    border: 2px solid;
+    border-radius: 50%;
+    margin: 10px;
+    
+}
+.legendas{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    font-weight: 500;
+    gap: 20px;
+}
+
+@media screen and (max-width:768px) {
+    .categoria{
+        position: absolute;
+        top: 60%;
+        flex-wrap: wrap;
+        gap: 20px;
+        padding: 1px;
+        display: none;
+    }
+    .categoria img{
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      align-items: center;
+      position: relative;
+      left: 50%;
+      transform: translate(-50%);
+      
+    }
+    
+}
+
+/* Categorias */
+
+/* Tela de login */
+.input{
+   position: absolute;
+   border: #000;
+   outline: #000;
+}
+/* Tela de login */
+
+/* apresentacao*/
+.apresentacao{
+    position: absolute;
+    top:20.5%;
+    justify-content: center;
+    display: none;
+    
+}
+.apresentacao img{
+   width: 500px;
+   height: 250px;
+   
+    
+}
+@media screen and (max-width:500px) {
+    .apresentacao{
+        display: block;
+        
+    }
+}
+/* apresentacao*/
+
+/* sessao infantil */
+.roupas-infantis{
+    display: inline;
+    justify-content: center;
+    padding: 3% 0;
+}
+.roupas-infantis img{
+    width: 120px;
+    height: 150px;
+    margin: 1px;
+    border: 2px solid;
+    margin: 15px;
+    
+}
+.roupas-infantis p{
+    position: relative;
+    top: 40px;
+    display: flex;
+    text-align: start;
+    align-items: end;
+    white-space: nowrap;
+}
+.bx-arrow-back{
+    position: absolute;
+    left: 0;
+    color: #000;
+    font-size: 40px;
+    padding:1%;
+}
+/* sessao infantil */
+
+.contatos{
+    position: absolute;
+    top: 110%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 2%;
+    background-color: #000;
+    width: 100%;
+    height: 50%;
+}
+
+.contatos li{
+    margin: 15px;
+    text-decoration: none;
+    color: #fff;
+    list-style: none;
+    display: inline;
+    white-space: nowrap;
+    flex-wrap: wrap;
+}
+.contatos li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.aplicativos-contatos {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 30px;
+    
+}
+.aplicativos-contatos i{
+    cursor: pointer;
+}
