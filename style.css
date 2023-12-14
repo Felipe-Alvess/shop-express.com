@@ -365,7 +365,9 @@ width: 900px;
         position: absolute;
         top: 19.8%;
         display: block;
-        
+    }
+    .apresentacao img{
+        width:350px;
     }
 }
 /* apresentacao*/
