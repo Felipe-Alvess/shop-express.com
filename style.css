@@ -119,7 +119,7 @@ input{
     }
     input{
         text-align: start;
-        top:-4px;
+        top:-6px;
         left: 12%;
         height: 4vh;
         display: flex;
@@ -363,11 +363,11 @@ width: 900px;
 @media screen and (max-width:500px) {
     .apresentacao{
         position: absolute;
-        top: 19.8%;
+        top: 19.9%;
         display: block;
     }
     .apresentacao img{
-        width:350px;
+        width:353px;
     }
 }
 /* apresentacao*/
