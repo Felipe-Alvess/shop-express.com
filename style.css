@@ -101,15 +101,25 @@ input{
 
 @media screen and (max-width:768px) {
 .titulo h2{
-        text-align: center;
+    position: relative;
+        top: 8px;
         display: flex;
-        justify-content: center;
+        justify-content: start;
+        text-align: start;
         font-size: 26px;
-        padding: 1.2%;
+        padding: 1.5%;
+    }
+    .titulo a{
+        position: relative;
+        top: -4.5vh;
+    }
+    .titulo i{
+        position: relative;
+        top: -3.5vh;
     }
     input{
         text-align: start;
-        top:-15px;
+        top:-4px;
         left: 12%;
         height: 4vh;
         display: flex;
@@ -352,6 +362,8 @@ width: 900px;
 }
 @media screen and (max-width:500px) {
     .apresentacao{
+        position: absolute;
+        top: 19.8%;
         display: block;
         
     }
@@ -425,4 +437,15 @@ width: 900px;
 }
 .aplicativos-contatos i{
     cursor: pointer;
+}
+@media screen and (max-width:500px) {
+    .contatos{
+        height: 600px;
+    }
+    .contatos li{
+        display: block;
+        justify-content: center;
+        text-align: center;
+        padding: 1% auto;
+    }
 }
