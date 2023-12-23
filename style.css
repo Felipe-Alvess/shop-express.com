@@ -348,8 +348,7 @@ display: none;
 .legendas-mobile p{
     margin:50px 50px;
 }
-.left{position: relative; left: 5%;}
-.leftt{position: relative;left: 2%; }
+
 
 @media screen and (max-width:768px) {
     .legendas-mobile{
