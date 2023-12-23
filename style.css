@@ -294,8 +294,6 @@ display: none;
     justify-content: center;
     display: block;
     
-    
-    
 }
 .categoria img{
     width: 120px;
@@ -303,7 +301,7 @@ display: none;
     border: 2px solid;
     border-radius: 50%;
     margin: 10px;
-    
+    border: 2px solid rgb(56, 4, 4);
 }
 .legendas{
     display: flex;
@@ -318,7 +316,7 @@ display: none;
     .categoria{
         position: absolute;
         top: 56%;
-       
+       background-color: rgb(128, 128, 128);
     }
     .categoria img{
       display: inline-flex;
@@ -335,24 +333,34 @@ display: none;
 
 }
 
+
 /* Categorias */
 
 .legendas-mobile{
     position: absolute;
     top: 66%;
     left: 4%;
-    
-    flex-wrap: wrap;
     display: none;
+    
 }
 .legendas-mobile p{
-    margin:50px 50px;
+display: inline-block;
+color: white;
+font-weight: 500;
 }
 
 
 @media screen and (max-width:768px) {
     .legendas-mobile{
         display: inline-flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+       
+    }
+    .legendas-mobile p{
+       
+        margin: 50px 50px;
+        
     }
 }
 
