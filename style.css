@@ -290,9 +290,9 @@ display: none;
 .categoria{
     position: absolute;
     top: 80%;
-    display: flex;
-    justify-content: center;
     display: block;
+    justify-content: center;
+    
     
 }
 .categoria img{
@@ -301,9 +301,9 @@ display: none;
     border: 2px solid;
     border-radius: 50%;
     margin: 10px;
-    border: 2px solid rgb(56, 4, 4);
+    cursor: pointer;
 }
-.legendas{
+.legendas {
     display: flex;
     text-align: center;
     align-items: center;
@@ -311,58 +311,40 @@ display: none;
     font-weight: 500;
     gap: 20px;
 }
-
 @media screen and (max-width:768px) {
     .categoria{
         position: absolute;
         top: 56%;
-       background-color: rgb(128, 128, 128);
     }
     .categoria img{
-      display: inline-flex;
+      display: inline-block;
+      justify-content: space-around;
+      text-align: center;
       position: relative;
       left: 0;
       width: 70px;
       height: 70px;
       margin: 4% 50px;
-      
+      cursor: pointer;
+      }
+     .legendas {
+        position: absolute;
+        top: 25%;
+        left: 2%;
+        display: block;
     }
     .legendas p{
-  visibility: hidden;
+        display: inline-flex;
+        margin:40px 50px;
+        justify-content: space-around;
+        text-align: center;
+        align-items: center;
     }
 
 }
-
-
 /* Categorias */
 
-.legendas-mobile{
-    position: absolute;
-    top: 66%;
-    left: 4%;
-    display: none;
-    
-}
-.legendas-mobile p{
-display: inline-block;
-color: white;
-font-weight: 500;
-}
 
-
-@media screen and (max-width:768px) {
-    .legendas-mobile{
-        display: inline-flex;
-        justify-content: space-around;
-        flex-wrap: wrap;
-       
-    }
-    .legendas-mobile p{
-       
-        margin: 50px 50px;
-        
-    }
-}
 
 /* Tela de login */
 .input{
