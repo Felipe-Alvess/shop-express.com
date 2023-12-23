@@ -317,7 +317,7 @@ display: none;
 @media screen and (max-width:768px) {
     .categoria{
         position: absolute;
-        top: 65%;
+        top: 60%;
         padding: 0 300px;
     }
     .categoria img{
@@ -326,7 +326,7 @@ display: none;
       left: 0;
       width: 70px;
       height: 70px;
-      margin: 4% 20px;
+      margin: 4% 50px;
       
     }
     .legendas p{
@@ -362,7 +362,7 @@ display: none;
 @media screen and (max-width:500px) {
     .apresentacao{
         position: absolute;
-        top: 20%;
+        top: 19.9%;
         display: block;
         
     }
