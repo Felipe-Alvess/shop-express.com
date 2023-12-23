@@ -317,23 +317,22 @@ display: none;
 @media screen and (max-width:768px) {
     .categoria{
         position: absolute;
-        top: 60%;
-        flex-wrap: wrap;
-        gap: 20px;
-        padding: 1px;
-        display: none;
+        top: 65%;
+        padding: 0 300px;
     }
     .categoria img{
-      display: flex;
-      justify-content: center;
-      text-align: center;
-      align-items: center;
+      display: inline-flex;
       position: relative;
-      left: 50%;
-      transform: translate(-50%);
+      left: 0;
+      width: 70px;
+      height: 70px;
+      margin: 4% 20px;
       
     }
-    
+    .legendas p{
+  visibility: hidden;
+    }
+
 }
 
 /* Categorias */
@@ -363,11 +362,13 @@ display: none;
 @media screen and (max-width:500px) {
     .apresentacao{
         position: absolute;
-        top: 19.5%;
+        top: 20%;
         display: block;
+        
     }
     .apresentacao img{
         width:360px;
+       
     }
 }
 /* apresentacao*/
