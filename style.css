@@ -363,7 +363,7 @@ display: none;
 @media screen and (max-width:500px) {
     .apresentacao{
         position: absolute;
-        top: 20.5%;
+        top: 19.5%;
         display: block;
     }
     .apresentacao img{
