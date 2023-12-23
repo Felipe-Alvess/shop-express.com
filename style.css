@@ -317,8 +317,8 @@ display: none;
 @media screen and (max-width:768px) {
     .categoria{
         position: absolute;
-        top: 60%;
-        padding: 0 300px;
+        top: 56%;
+       
     }
     .categoria img{
       display: inline-flex;
@@ -336,6 +336,26 @@ display: none;
 }
 
 /* Categorias */
+
+.legendas-mobile{
+    position: absolute;
+    top: 66%;
+    left: 4%;
+    
+    flex-wrap: wrap;
+    display: none;
+}
+.legendas-mobile p{
+    margin:50px 50px;
+}
+.left{position: relative; left: 5%;}
+.leftt{position: relative;left: 2%; }
+
+@media screen and (max-width:768px) {
+    .legendas-mobile{
+        display: inline-flex;
+    }
+}
 
 /* Tela de login */
 .input{
