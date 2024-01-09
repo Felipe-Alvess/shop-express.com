@@ -119,12 +119,12 @@ input{
     }
     input{
         text-align: start;
-        top:-8px;
+        top:-4.5vw;
         left: 12%;
         height: 4vh;
         display: flex;
         z-index: 1;
-        padding: 10px;
+        padding: 11px;
 }
 .titulo{
        padding-top: 1.5%;
@@ -316,7 +316,8 @@ display: none;
 @media screen and (max-width:768px) {
     .categoria{
         position: absolute;
-        top: 60%;
+        top: 66%;
+        padding: 10px 0;
     }
     .categoria img{
      width: 80px;
@@ -358,13 +359,12 @@ display: none;
 @media screen and (max-width:768px) {
     .apresentacao{
         position: absolute;
-        top: 19.9%;
+        top: 20.8%;
         display: block;
-        
     }
+    
     .apresentacao img{
-        width:360px;
-       
+        width:100%;
     }
 }
 /* apresentacao*/
@@ -440,11 +440,13 @@ display: none;
 @media screen and (max-width:500px) {
     .contatos{
         height: 600px;
+        margin-top: 30%;
     }
     .contatos li{
         display: block;
         justify-content: center;
         text-align: center;
         padding: 1% auto;
+        
     }
 }
