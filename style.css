@@ -38,7 +38,7 @@ body{
 .aplicativos i:hover{
 color: orangered;
 }
-@media screen and (max-width:768px) {
+@media screen and (max-width:500px) {
     .aplicativos i{
         position: relative;
         left: 2%;
@@ -99,10 +99,10 @@ input{
     
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:500px) {
 .titulo h2{
     position: relative;
-        top: 8px;
+        top: 2px;
         display: flex;
         justify-content: start;
         text-align: start;
@@ -111,11 +111,11 @@ input{
     }
     .titulo a{
         position: relative;
-        top: -4.5vh;
+        top: -7vh;
     }
     .titulo i{
         position: relative;
-        top: -3.5vh;
+        top: -6vh;
     }
     input{
         text-align: start;
@@ -150,14 +150,14 @@ nav a{
 nav a:hover{
 text-decoration: underline;
 }
-@media screen and (max-width:1211px) {
+@media screen and (max-width:500px) {
     nav a{
       position: relative;
       top: 20px;
     }
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:500px) {
     nav {
   display: none;
     }
@@ -175,7 +175,7 @@ text-decoration: underline;
     width: 100%;
     display: none;
 }
-@media screen and (max-width:768px) {
+@media screen and (max-width:500px) {
     .menu-lateral {
         display: block;
         
@@ -274,7 +274,7 @@ object-fit: cover;
 height: 300px;
 width: 900px;
 }
-@media screen and (max-width:768px) {
+@media screen and (max-width:500px) {
 .carrossel{
 display: none;
 }
@@ -313,7 +313,7 @@ display: none;
     font-weight: bold;
     gap: 20px;
 }
-@media screen and (max-width:768px) {
+@media screen and (max-width:500px) {
     .categoria{
         position: absolute;
         top: 66%;
@@ -356,7 +356,7 @@ display: none;
    
     
 }
-@media screen and (max-width:768px) {
+@media screen and (max-width:500px) {
     .apresentacao{
         position: absolute;
         top: 20.8%;
@@ -364,7 +364,7 @@ display: none;
     }
     
     .apresentacao img{
-        width:100%;
+        width:100vw;
     }
 }
 /* apresentacao*/
