@@ -111,15 +111,15 @@ input{
     }
     .titulo a{
         position: relative;
-        top: -7vh;
+        top: -5vh;
     }
     .titulo i{
         position: relative;
-        top: -6vh;
+        top: -4vh;
     }
     input{
         text-align: start;
-        top:-4.5vw;
+        top:-3vw;
         left: 12%;
         height: 4vh;
         display: flex;
@@ -359,7 +359,7 @@ display: none;
 @media screen and (max-width:500px) {
     .apresentacao{
         position: absolute;
-        top: 20.8%;
+        top: 18%;
         display: block;
     }
     
